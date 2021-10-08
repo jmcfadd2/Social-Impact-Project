@@ -1,0 +1,156 @@
+body {
+  margin: 0 ;
+  padding: 0 0 10vh 0;
+  background-color: slateblue;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  font-family: Zen Dots, cursive;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0 5vw;
+}
+
+.content-slice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-slice .text-content {
+  width: 40vw;
+  font-size: 1.5rem;
+  margin: 0 10vw;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+}
+
+.content-slice img {
+  width: 40vw;
+}
+
+button {
+  height: 5vh;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 5px  #363636;
+  background-color: #DFCEBC;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  padding: 0 10vw;
+}
+
+.landing-section {
+  width: 100vw;
+  height: 80vh;
+  border: 1px solid black;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: Poppins, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#about-landing {
+  background-image: url("https://www.yogajournal.com/wp-content/uploads/2007/08/lotusflower.jpg?crop=535:301&width=1070&enable=upscale");
+}
+
+#home-landing {
+  background-image: url("/assets/modern-v-old.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  background-blend-mode: overlay;
+}
+
+#learn-landing {
+  background-image: url("/assets/modern-v-old.jpg");
+}
+
+#people-landing {
+  background-image: url("/assets/i-live-here.jpeg");
+}
+
+#resources-landing {
+  background-image: url("/assets/gentrify-this.png");
+}
+
+.games {
+  display: flex;
+  justify-content: space-between;
+}
+
+.videos {
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.games img {
+  box-shadow: 13px 17px 16px 5px #363636;
+  height: 300px;
+}
+
+.games img:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
+}
+
+.videos iframe:hover {
+  transform: scale(1.2);
+  transition: transform 1s ease;
+}
+
+.about-facts {
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+}
+
+.resources-list li {
+  margin: 5vh 0;
+  color: black;
+  
+}
+
+.resources-list li a {
+  color: #000;
+}
+
+.resources-list li a:hover{
+  color: #fff;
+}
+
+.resources-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 50vw;
+  font-size: 1.5rem;
+}
+
+.resources-list {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
